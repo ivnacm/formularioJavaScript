@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">   
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="listagem">
+        <h2>Listagem de Produtos</h2>
+        <div id="listTable">
+            <table id="tabela">
+                <tr>
+                    <th>Nome do Produto</th>
+                    <th>Valor do Produto</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="cadastro">
+        <h2>Cadastro de Produtos</h2>
+        <div id="formulario">
+            <form action="" method="post">
+                <div>
+                    <label for="nome">Nome do Produto:</label>
+                    <br>
+                    <input id="nome" type="text">
+                </div>
+                <div>
+                    <label for="descrição">Descrição do Produto:</label>
+                    <br>
+                    <input id="descrição" type="text">
+                </div>
+                <div>
+                    <label for="valor">Valor do Produto:</label>
+                    <br>
+                    <input id="valor" type="number">
+                </div>
+                <div id="disponível">
+                    <span>Disponível para Venda:</span>
+                    <br>
+                    <input type="radio" id="sim" name="vendaDisponível" value="Sim">
+                    <label for="sim">Sim</label>
+                    <input type="radio" id="não" name="vendaDisponível" value="Não">
+                    <label for="não">Não</label>
+                </div>
+                <div>
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <section id="footer">
+        <div class="container">
+            <footer>
+                <span>© Ivna Cavalcante. All rights reserved.</span>
+            </footer>
+        </div>
+    </section>  
+    <script src="./index.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body {
+    background-color: #FAF1E4;
+    color: #435334;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+}
+
+#listagem {
+    background-color: #9EB384;
+    color: #435334;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 30%;
+    padding-bottom: 30px;
+}
+
+#listTable tr {
+    width: 706px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FAF1E4;
+}
+
+td {
+    font-weight: 200;
+}
+
+#cadastro {
+    background-color: #9EB384;
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 30%;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+#formulario {
+    margin: 40px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#não {
+    margin-left: 20px;
+}
+
+button {
+    background-color: #FAF1E4;
+    border-radius: 5px;
+    border: 0;
+    color: #435334;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #435334;
+    color: #9EB384;
+}
+
+input {
+    margin: 10px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
